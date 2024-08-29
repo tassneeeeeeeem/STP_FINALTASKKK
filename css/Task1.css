@@ -1,0 +1,282 @@
+/* start global rules */
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    font-family: "Open Sans",sans-serif;
+    background-color: black;
+
+}
+ul{
+    list-style: none;
+}
+/* end global rules */
+
+
+.container{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+}
+/* small */
+@media(min-width:768px){
+    .container{
+        width: 750px;
+    }
+}
+/* medium */
+@media(min-width:992px){
+    .container{
+        width: 970px;
+    }
+}
+/* large */
+@media(min-width:1200px){
+    .container{
+        width: 1170px;
+    }
+}
+/* start Header  */
+
+
+
+
+
+ */ */
+.Header{
+    width: 100px;
+   hight:4px;
+background-color: #333;
+}
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0 ;
+}
+.logo{
+    margin-right: 100px;
+    width: 60px;
+    cursor: pointer;
+
+}
+nav ul{
+    list-style: none;
+    width: 100%;
+    text-align: right;
+    padding-right: 60px;
+}
+nav ul li{
+    display: inline-block;
+    margin: 10px 10px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+.Login{
+    color: white;
+}
+
+header.container::after{
+    content:"";
+    position: absolute;
+    height: 1px;
+    background-color: antiquewhite;
+    bottom: 0;
+    width: calc(100%-30px);
+    left: 15px;}
+    .container{
+        display: flex ;
+        justify-content: center;
+        height: 100vh;
+        /* position: relative; /* Position the text relative to the container */
+        /* padding: 20px;  */
+    }
+    
+    .content{
+        color: yellow;
+    
+    }
+   
+    .header1{
+        background-color: #333;
+        padding: 50px;
+        height: 600px;
+        margin-right: 20px;
+    }
+    .header1 h1{
+        color: yellow;
+
+    }
+    .header1 p{
+        color: white;
+    }
+
+    .contact h3{
+        color: white;
+    }
+
+    .icon{
+        color:white
+
+    }
+    .buttons{
+        display: flex;
+    }
+    .buttons button {
+        padding: 10px 20px;
+        background-color:yellow;
+        color: #fff;
+        cursor: pointer;
+       
+    }
+    .RightImg{
+     
+        width: 850px;
+        height: 600px;
+        padding: 0 50px;
+       background-image: url(../images/p1.png!bwr800);
+       background-size: cover;
+   
+}
+        
+    
+    .container2{
+        color: yellow;
+        background-color: black;
+        text-align: center;
+        height: 600px;
+        position: relative;
+    }
+    
+    .container3 {
+        display: flex;
+        justify-content:center;
+        align-content: center;
+        position: absolute;
+        top: 150px;
+        padding: 50px;
+        margin-right: 20px;
+        height: 200px;
+        border: 1px;
+   
+      }
+      
+      .cards{
+        text-align: center;
+        padding: 10px;
+        background-color: #333;
+        color: #fff;
+        border-radius: 10px;
+        border-top: none;
+       width: 100%;
+       height: 180px;
+       margin: auto;
+     
+      
+      /* padding: 0px 50px; */
+     
+      }
+      
+      .cards i {
+        font-size: 30px;
+        margin-bottom: 10px;
+        color: yellow;
+      }
+      .Kcontainer4{
+        color: yellow;
+        background-color: black;
+        text-align: center;
+        height: 400px;
+        margin-bottom: 150px;
+      }
+    .container4{
+        color: yellow;
+        background-color: black;
+        text-align: center;
+        height: 600px;
+        margin-bottom: 150px;
+       
+    }
+    .Klastcontainer{
+        height: 600px;
+
+    }
+    .lastcontainer{
+        text-align: center;
+        padding: 40px;
+        background-color: goldenrod;
+        border: 2px solid #000;
+        border-radius: 10px;
+        
+    }
+    .lastcontainer h1{
+        font-size: 30px;
+    margin-bottom: 20px;
+    color:black;
+    }
+    .lastcontainer p{
+        font-size: 30px;
+        margin-bottom: 20px;
+        color:white;
+
+    }
+    
+    .container9{
+        background-color: black;
+        font: 300;
+        color:yellow;
+        justify-content: space-between;
+    }
+    
+    .twopictuers{
+        display: flex ;
+      justify-content: center;
+
+      
+    }
+    
+    .pics1 , .pics2{
+        width: 500px;
+        height: 300px;
+        /* padding: 0 50px; */
+        border: 0.5px solid yellow;
+       
+    }
+    .container9 nav ul{
+        width: 100%;
+        text-align: center;
+        
+    }
+
+    .container9 ul li{
+        display: inline-block;
+        margin: 10px 10px;
+        background-color: black;
+    }
+    footer {
+        background-color: black; /* Change the background color as needed */
+        color: #fff; /* Change the text color as needed */
+        padding: 20px;
+        text-align: center;
+    }
+    .footer-content {
+        max-width: 1200px; /* Adjust the max width if needed */
+        margin: 0 auto;
+    }
+
+/* End Header */
